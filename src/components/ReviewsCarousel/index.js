@@ -14,7 +14,7 @@ const ReviewsCarousel = props => {
 
   return (
     <div className="review-container">
-      <img src={imgUrl} alt={username}/>
+      <img src={imgUrl} alt={username} />
       <div className="arrow-container">
         <button
           type="button"
@@ -27,7 +27,7 @@ const ReviewsCarousel = props => {
             alt="left arrow"
           />
         </button>
-        <p>{username}</p>
+        <p className="username">{username}</p>
         <button
           type="button"
           data-testId="rightArrow"

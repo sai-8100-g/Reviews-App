@@ -12,9 +12,7 @@ img {
   margin-bottom: 2%;
 }
 
-h1 {
-  margin: 0px;
-}
+
 
 .left-arrow {
   background-color: transparent;
@@ -41,4 +39,12 @@ p {
 
 .arrow-container > h1 {
   font-size: 2vw;
+}
+
+
+.username{
+  font: 2vw;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #ffffff;
 }
